@@ -1,0 +1,51 @@
+{
+  "GENDER_DATA_DEFINE": {
+    "F" : "",
+    "f" : "",
+    "FEMALE" : "",
+    "Female" : "",
+    "female" : "",
+    "mostly_female" : "",
+    "M" : "",
+    "m" : "",
+    "MALE" : "",
+    "Male" : "",
+    "male": "",
+    "mostly_male" : "",
+    "Default" : ""
+  },
+  "READ_FILE_SETTINGS": {
+    "PATH": "",
+    "GENDER_EXPERIMENT": "",
+    "RACE_EXPERIMENT" : "",
+    "DEMO_COL" : "",
+    "SCORE_COL" : "",
+    "LOWER_SCORE_BETTER" : "",
+    "ADDITIONAL_COLUMNS" : []
+  },
+  "DATA_SPLIT" : {
+    "TRAIN_PCT" :
+  },
+  "INFERENCE_METHODS" : {
+    "INFER_COL" : "",
+    "BTN" : {
+      "API_KEY" : [],
+      "URL" : "https://www.behindthename.com/api/lookup.json?"
+    },
+    "NMSOR" : {
+      "API_KEY" : "",
+      "URL" : "https://v2.namsor.com/NamSorAPIv2/api2/json/genderBatch"
+    },
+    "GAPI" : {
+      "API_KEY" : "",
+      "URL" : "https://gender-api.com/get?key="
+    }
+  },
+  "DELTR_OPTIONS" : {
+    "gamma" : ,
+    "num_iterations" : ,
+    "standardize" : "",
+    "SCORE_COLUMN" : "",
+    "NORMALIZE_SCORE_COLUMN" : ""
+  }
+}
